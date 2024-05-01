@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .contact-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .contact-list li {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        
+        .contact-list li .name {
+            margin: 0;
+            font-size: 24px;
+        }
+        
+        .contact-list li .address {
+            margin: 10px 0;
+        }
+        
+        .contact-list li .phone,
+        .contact-list li .email {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <header class="header">
+
+        <a href="#" class="logo">  coffee</a>
+
+        <nav class="navbar">
+            <a href="home.html" class="active">home</a>
+            <a href="about.html">about</a>
+            <a href="menu.html">menu</a>
+            <a href="review.html">review</a>
+            <a href="m.html">Students</a>
+            <a href="contact.html">contact</a>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+    </header>
+
+
+    <div class="sub-heading">
+        <h1>contact us</h1>
+    </div>
+
+
+    <section class="contact">
+        <ul class="contact-list">
+            <li>
+                <h2 class="name">Coffee </h2>
+                <p class="address">123 Main Street</p>
+                <p class="phone">Phone: 966-456-7890</p>
+                <p class="email">Email: info@coffee.com</p>
+            </li>
+
+        </ul>
+        <div class="row">
+
+            <form action="">
+                <h3>book a table</h3>
+
+                <div class="inputBox">
+                    <input type="text" placeholder="Enter Your Name" class="box" required>
+                    <input type="email" placeholder="Enter Your Email" class="box" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
+                </div>
+
+                <div class="inputBox">
+                    <input type="number" placeholder="Enter Your number" class="box">
+                    <input type="number" placeholder="How Many Members" class="box">
+                </div>
+                <textarea placeholder="Your Message" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+
+            </form>
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

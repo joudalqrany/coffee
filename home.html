@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <header class="header">
+
+        <a href="#" class="logo">  coffee</a>
+
+        <nav class="navbar">
+            <a href="home.html" class="active">home</a>
+            <a href="about.html">about</a>
+            <a href="menu.html">menu</a>
+            <a href="review.html">review</a>
+            <a href="m.html">Students</a>
+            <a href="contact.html">contact</a>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+    </header>
+
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>coffee creations</h3>
+            <a href="menu.html" class="btn">Explore now </a>
+        </div>
+        <div class="video-container">
+            <video src="Coffee.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
